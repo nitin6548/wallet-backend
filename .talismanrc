@@ -1,0 +1,3 @@
+fileignoreconfig:
+- filename: src/test/resources/Insert_Wallet_Data_Test.sql
+  checksum: 414e76185561af735a2410b85bb0271e9550ff8433fb37d2c347490fb35692d2
