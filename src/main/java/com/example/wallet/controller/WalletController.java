@@ -17,7 +17,6 @@ public class WalletController {
     public Money depositAmount(@RequestBody Money money){
 
         Money note = this.walletService.deposit(money);
-        System.out.println("API HIT");
         return note;
 
     }

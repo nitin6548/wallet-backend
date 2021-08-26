@@ -11,10 +11,10 @@ import javax.persistence.*;
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
 public class Money {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "money_id")
     private Integer id;
 
     private  double amount;

@@ -9,11 +9,11 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Wallet {
 
-    private Money amount;
+    private Money totalAmount;
 
     public void depositAmount(Money money) {
-        amount = amount.add(money);
+        totalAmount = totalAmount.add(money);
     }
     //add money
-    //totalamount
+    //totalAmount
 }

@@ -2,7 +2,6 @@ package com.example.wallet.controller.businessObject;
 
 import com.example.wallet.dataModelObject.Currency;
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 

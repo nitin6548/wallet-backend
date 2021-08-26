@@ -1,7 +1,7 @@
 package com.example.wallet.service;
 
 import com.example.wallet.dataModelObject.Money;
-//import com.example.wallet.repository.WalletRepository;
+import com.example.wallet.repository.WalletRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class WalletService {
 
-    //private final WalletRepository walletRepository;
+    private final WalletRepository walletRepository;
 
     public Money deposit(Money money) {
-        //walletRepository.save(money);
+        walletRepository.save(money);
         return money;
     }
 }
